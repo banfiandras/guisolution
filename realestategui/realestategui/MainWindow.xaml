@@ -1,0 +1,39 @@
+﻿<Window x:Class="realestategui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:realestategui"
+        mc:Ignorable="d"
+        Title="Ingatlan" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Column="0" Name="Seller">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding Name}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Column="1" DataContext="{Binding ElementName=Seller, Path=SelectedItem}">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Elado neve:"/>
+                <Label Content="{Binding Name}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Elado telefonszáma:"/>
+                <Label Content="{Binding Phone}"/>
+            </StackPanel>
+            <Button Content="Hirdetések betöltése" Click="Button_Click"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Hirdetések száma:"/>
+                <Label Content="0" Name="AdCount"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

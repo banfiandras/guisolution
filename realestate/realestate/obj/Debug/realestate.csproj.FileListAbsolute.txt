@@ -1,0 +1,12 @@
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\realestates.csv
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\realestates.json
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\realestate.exe.config
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\realestate.exe
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\realestate.pdb
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\obj\Debug\realestate.csproj.AssemblyReference.cache
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\obj\Debug\realestate.csproj.CoreCompileInputs.cache
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\obj\Debug\realestate.exe
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\obj\Debug\realestate.pdb
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Felhasználó\Desktop\wpf\guisolution\realestate\realestate\obj\Debug\realestate.csproj.CopyComplete
